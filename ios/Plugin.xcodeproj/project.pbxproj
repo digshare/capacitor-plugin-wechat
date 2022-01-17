@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
-		2F98D68224C9AAE500613A4C /* Wechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* Wechat.swift */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFF97201F53D600D50D53 /* WechatPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* WechatPluginTests.swift */; };
 		50ADFF99201F53D600D50D53 /* WechatPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* WechatPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
-		50ADFFA82020EE4F00D50D53 /* WechatPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* WechatPlugin.m */; };
-		50E1A94820377CB70090CE1A /* WechatPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* WechatPlugin.swift */; };
+		9F89D79A2714232100B27150 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D11A62711A08B008AF8DA /* libc++.tbd */; };
+		9F9A2A87271198FF00BEBA10 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9A2A86271198FF00BEBA10 /* Security.framework */; };
+		9F9A2A892711990600BEBA10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9A2A882711990600BEBA10 /* CoreGraphics.framework */; };
+		9F9A2A8B2711990D00BEBA10 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9A2A8A2711990D00BEBA10 /* WebKit.framework */; };
+		9F9D11BE2711BB99008AF8DA /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9D11B92711BB98008AF8DA /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9D11BF2711BB99008AF8DA /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9D11BA2711BB98008AF8DA /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9D11C02711BB99008AF8DA /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9D11BB2711BB98008AF8DA /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9D11C22711BB99008AF8DA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F9D11BD2711BB99008AF8DA /* README.txt */; };
+		9F9D11C42711BBEA008AF8DA /* WechatBridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9D11C32711BBEA008AF8DA /* WechatBridgingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9D11C52711BEA5008AF8DA /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D11BC2711BB99008AF8DA /* libWeChatSDK.a */; };
+		9FBED0592773108400A96DAA /* WechatPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* WechatPlugin.swift */; };
+		9FBED05A2773108400A96DAA /* Wechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* Wechat.swift */; };
+		9FBED05C2773108400A96DAA /* WechatPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* WechatPlugin.m */; };
+		9FBED05D277310EF00A96DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89D79B271463D400B27150 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +54,17 @@
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F89D79B271463D400B27150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F9A2A86271198FF00BEBA10 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9F9A2A882711990600BEBA10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9F9A2A8A2711990D00BEBA10 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F9D11A62711A08B008AF8DA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		9F9D11B92711BB98008AF8DA /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9F9D11BA2711BB98008AF8DA /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9F9D11BB2711BB98008AF8DA /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		9F9D11BC2711BB99008AF8DA /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9F9D11BD2711BB99008AF8DA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		9F9D11C32711BBEA008AF8DA /* WechatBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatBridgingHeader.h; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F89D79A2714232100B27150 /* libc++.tbd in Frameworks */,
+				9F9D11C52711BEA5008AF8DA /* libWeChatSDK.a in Frameworks */,
+				9F9A2A8B2711990D00BEBA10 /* WebKit.framework in Frameworks */,
+				9F9A2A892711990600BEBA10 /* CoreGraphics.framework in Frameworks */,
+				9F9A2A87271198FF00BEBA10 /* Security.framework in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
 			);
@@ -92,11 +119,13 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				9F9D119B27119FCE008AF8DA /* OpenSDK */,
 				50E1A94720377CB70090CE1A /* WechatPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* Wechat.swift */,
 				50ADFF8B201F53D600D50D53 /* WechatPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* WechatPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				9F89D79B271463D400B27150 /* AppDelegate.swift */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -121,9 +150,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F9D119B27119FCE008AF8DA /* OpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D11BC2711BB99008AF8DA /* libWeChatSDK.a */,
+				9F9D11BD2711BB99008AF8DA /* README.txt */,
+				9F9D11B92711BB98008AF8DA /* WechatAuthSDK.h */,
+				9F9D11BA2711BB98008AF8DA /* WXApi.h */,
+				9F9D11BB2711BB98008AF8DA /* WXApiObject.h */,
+				9F9D11C32711BBEA008AF8DA /* WechatBridgingHeader.h */,
+			);
+			path = OpenSDK;
+			sourceTree = "<group>";
+		};
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F9D11A62711A08B008AF8DA /* libc++.tbd */,
+				9F9A2A8A2711990D00BEBA10 /* WebKit.framework */,
+				9F9A2A882711990600BEBA10 /* CoreGraphics.framework */,
+				9F9A2A86271198FF00BEBA10 /* Security.framework */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -138,7 +184,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9D11BF2711BB99008AF8DA /* WXApi.h in Headers */,
 				50ADFF99201F53D600D50D53 /* WechatPlugin.h in Headers */,
+				9F9D11BE2711BB99008AF8DA /* WechatAuthSDK.h in Headers */,
+				9F9D11C42711BBEA008AF8DA /* WechatBridgingHeader.h in Headers */,
+				9F9D11C02711BB99008AF8DA /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +241,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Max Lynch";
 				TargetAttributes = {
 					50ADFF87201F53D600D50D53 = {
@@ -230,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9D11C22711BB99008AF8DA /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E1A94820377CB70090CE1A /* WechatPlugin.swift in Sources */,
-				2F98D68224C9AAE500613A4C /* Wechat.swift in Sources */,
-				50ADFFA82020EE4F00D50D53 /* WechatPlugin.m in Sources */,
+				9FBED05D277310EF00A96DAA /* AppDelegate.swift in Sources */,
+				9FBED0592773108400A96DAA /* WechatPlugin.swift in Sources */,
+				9FBED05A2773108400A96DAA /* Wechat.swift in Sources */,
+				9FBED05C2773108400A96DAA /* WechatPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +408,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -371,6 +424,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"${PROJECT_DIR}/Plugin/Plugin/OpenSDK/libWechatSDK.a",
+					"${PROJECT_DIR}/Plugin/Plugin/OpenSDK/WXApi.h",
+					"${PROJECT_DIR}/Plugin/Plugin/OpenSDK/WXApiObject.h",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -387,10 +443,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/OpenSDK",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/libWechatSDK.a",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/WXApiObject.h",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/WXApi.h",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = Plugin/OpenSDK/WechatBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -422,6 +486,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -437,6 +502,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"${PROJECT_DIR}/Plugin/OpenSDK/libWechatSDK.a",
+					"${PROJECT_DIR}/Plugin/OpenSDK/WXApi.h",
+					"${PROJECT_DIR}/Plugin/OpenSDK/WXApiObject.h",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -447,8 +515,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/OpenSDK",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/libWechatSDK.a",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/WXApiObject.h",
+					"$(PROJECT_DIR)/Plugin/OpenSDK/WXApi.h",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Plugin/OpenSDK/WechatBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -471,10 +547,26 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/OpenSDK",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = Plugin/OpenSDK/WechatBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,10 +588,26 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/OpenSDK",
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = Plugin/OpenSDK/WechatBridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -509,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -523,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

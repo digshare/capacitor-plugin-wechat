@@ -7,4 +7,13 @@ export class WechatWeb extends WebPlugin implements WechatPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  registerApp(): void {
+    console.log("not implement");
+    
+  }
+
+  login(): void {
+    console.log("not implement");
+  }
 }

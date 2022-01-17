@@ -55,4 +55,5 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }
